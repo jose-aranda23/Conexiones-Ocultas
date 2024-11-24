@@ -1,0 +1,67 @@
+main{
+    background-color: aquamarine;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+img{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+.juego{
+    background-color: blue;
+    width: 500px;
+    padding: 10px;
+}
+.principal{
+
+    background: #000;
+    display: grid;
+    grid-template-columns: 120px 120px 120px 120px;
+}
+
+.nombre{
+    color: black;
+    font-size: 40px;
+}
+.puntos{
+    background-color: blueviolet;
+    width: 700px;
+    display: grid;
+    justify-content: center;
+    align-items:center;
+}
+
+.encontrado{
+    background: yellowgreen;
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+}
+
+.falta{
+    background: rgb(166, 248, 2);
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    
+}
+
+.btn{
+    background: red;
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+}
